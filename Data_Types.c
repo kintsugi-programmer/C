@@ -17,6 +17,7 @@ int main(){
     unsigned char g = 255;       // 1 byte (0 to +255) %d or %c
     signed char g = 255;       // Default all datatypes are signed ;0 (but we dont need to write it)
 
+    short int h1 = 11; // this is short int . you dont need to write int 
     short h = 32767;                  // 2 bytes (−32,768 to +32,767) %d ,AT OVERFLOW IT WILL JUST PRINT −32,768
     unsigned short i = 65535;  // 2 bytes (0 to +65,535) %d
 
@@ -24,7 +25,7 @@ int main(){
     unsigned int k = 4294967295;  // 4 bytes (0 to +4,294,967,295) %u
 
     long long int l = 9223372036854775807;                         // 8 bytes (-9 quintillion to +9 quintillion) %lld
-    unsigned long long int m = 18446744073709551615U; // 8 bytes (0 to +18 quintillion) %llu
+    unsigned long long int m = 18446744073709551615U; // 8 bytes (0 to +18 quintillion) %llu .AND WE QROTE U TO JUST REMOVE WARNINGS
 
     printf("%c\n", a);  // char
     printf("%s\n", b);  // character array
@@ -55,5 +56,7 @@ int main(){
     printf("%lld\n", l);  // long long int
     printf("%llu\n", m);  // unsigned long long int
 
+
+// AT OVERFLOW : RETURN TO ITS DATATYPE'S MINIMUM VALUE
     return 0;
 }
