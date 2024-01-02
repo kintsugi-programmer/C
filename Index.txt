@@ -6,3 +6,11 @@ Compile_Run_Terminal.md
 Comments_EscapeSeqeunce.c
 Variables.c
 Data_Types.c
+
+C_Format_Specifiers.c
+Constants.c
+arithmetic_operators.c
+augmented_assignment_operators.c
+C_user_input.c
+C_math_functions.c
+C_circle_circumference_program.c
