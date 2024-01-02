@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     // - (subtraction)
     // * (multiplication)
     // / (division)
-    // % (modulus)
+    // % (modulus) GIVES REMAINDER
     // ++ increment
     // -- decrement
  
@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     // int z = x * y;
     // float z = x / (float) y;
     // int z = x % y;
-    // x++;
+    // x++; INCREMENT BY ONE
     // y--;
 
     printf("%d", x);
