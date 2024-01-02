@@ -77,3 +77,5 @@ minGW for windows
 
 C/C++ Extension Pack
 Coderunner
+
+IN FILE>PREF>SETTING>SEARCH CODE RUNNER >RUN IN TERMINAL SELECT >>>> CODE WILL RUN IN TERMINAL (where you cang ive inputs )
