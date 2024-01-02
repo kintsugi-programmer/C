@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
-{ 
+{ //SHORTCUT ;)
  
  // augmented assignment operators = used to replace a statement where an operator
     //                                  takes a variable as one of its arguments
