@@ -13,6 +13,10 @@ int main()
    //48/8 = 6
    //so we know that there are 6 elements in the array.
    //GOOD PRACTICE TO USE THIS METHOD TO GET THE SIZE OF THE ARRAY.
+   //Way better than hard coding the size of the array.
+   //way better than using a length of array variable.
+   
+
    
    {
       printf("$%.2lf\n", prices[i]);

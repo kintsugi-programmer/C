@@ -6,6 +6,7 @@ int main()
 {
    char cars[][10] = {"Mustang","Corvette","Camaro"};
 
+   //UPDATE
    //cars[0] = "Tesla";
    strcpy(cars[0], "Tesla");
 
