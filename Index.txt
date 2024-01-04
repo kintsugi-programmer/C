@@ -1,3 +1,5 @@
+< ReCode stuff ;0 >
+
 Into.md
 GCC install.md
 MinGW.md
@@ -17,3 +19,7 @@ C_circle_circumference_program.c
 Hypotenuse_calculator.c
 if.c
 switch.c
+temperature_convert_if.c
+temperature_convert_switch.c
+calculator.c
+and_logical_op.c
