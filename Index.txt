@@ -41,3 +41,8 @@ print_an_array_with_loop.c
 arrays_2D.c
 array_of_strings.c
 swap_values_of_two_variables.c
+sort_an_array.c
+structs.c
+typedef.c
+array_of_structs.c
+enums.c
