@@ -30,3 +30,12 @@ arguments.c
 return.c
 C_ternary_operator.c
 function_prototypes.c
+string_functions.c
+for_loop.c
+while_loop.c
+do_while_loop.c
+nested_loop.c
+break_vs_continue.c
+arrays.c
+print_an_array_with_loop.c
+arrays_2D.c
