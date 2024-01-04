@@ -25,4 +25,8 @@ calculator.c
 and_logical_op.c
 or_logical_op.c
 not_logical_op.c
-
+function.c
+arguments.c
+return.c
+C_ternary_operator.c
+function_prototypes.c
