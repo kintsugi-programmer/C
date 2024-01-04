@@ -97,6 +97,9 @@ Feel free to explore each section by clicking on the corresponding link. The cod
 
 If you find any issues or have improvements to suggest, please feel free to open an issue or submit a pull request.
 
+Instructor : [BroCode](https://www.youtube.com/@BroCodez)
+
+
 ---
 
 Made with :heart: by [**Siddhant Bali**](https://github.com/kintsugi-programmer)

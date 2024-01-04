@@ -69,6 +69,7 @@ used ....everywhere
 all compilers is made by it
 
 C is not OOP
+C Lang is Case Sensisitive
 C++ is extension of C
 C is difficult
 

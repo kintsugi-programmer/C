@@ -1,7 +1,13 @@
 
 #include <stdio.h>
 
-void hello(char[], int); //function prototype
+void hello(char[], int); //function prototype : tells the compiler that a function will be used later in the program
+//without this, the compiler will show error of insufficient arguments and still run the program
+//good error flag
+//function prototype is a function declaration without the body
+//function prototype is placed before main() function
+//function prototype is used to ensure that calls to a function are made with the correct arguments
+
 
 int main()
 {

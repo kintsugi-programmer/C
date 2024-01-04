@@ -3,7 +3,7 @@
 
 int main(){
 
-    // switch = A more efficient alternative to using many "else if" statements
+    // switch = A more efficient alternative to using many "else if" statements (using else if multiple times is bad practice)
     //          allows a value to be tested for equality against many cases
 
    char grade;
@@ -14,7 +14,7 @@ int main(){
    switch(grade){
       case 'A':
          printf("perfect!\n");
-         break;
+         break; // without every break it sees other commands as statements and execute all statements below it inside switch
       case 'B':
          printf("You did good!\n");
          break;
@@ -27,7 +27,7 @@ int main(){
       case 'F':
          printf("YOU FAILED!\n");
          break;
-      default:
+      default: // it's like else
          printf("Please enter only valid grades");
    }
 

@@ -10,7 +10,7 @@ int main(){
     printf("\nIs the temperature in (F) or (C)?: ");
     scanf("%c", &unit);
 
-    unit = toupper(unit);
+    unit = toupper(unit); // for just surity purpose i.e. in case of c ,it becomes C.as C Lang is Case Sensitive
 
     if(unit == 'C'){
         printf("\nEnter the temp in Celsius: ");

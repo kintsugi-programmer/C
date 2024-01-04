@@ -8,7 +8,7 @@ int main(){
     float temp = 25;
     bool sunny = true;
 
-    if(temp >= 0 && temp <= 30 && sunny){
+    if(temp >= 0 && temp <= 30 && sunny){ //its same as sunny ==1 or sunny == true 
         printf("\nThe weather is good!");
     }
     else{
