@@ -49,3 +49,7 @@ enums.c
 random_numbers.c
 number_guessing_game.c
 quiz_game.c
+bitwise_operators.c
+memory_addresses.c
+pointers.c
+writing_files.c
