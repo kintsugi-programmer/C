@@ -3,7 +3,7 @@
  
 int main(){
  
-    // logical operators = || (OR) checks if at least one codition is true
+    // logical operators = || (OR) checks if at least one condition is true
     
     float temp = 25;
 
