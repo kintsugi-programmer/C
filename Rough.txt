@@ -1,4 +1,5 @@
 < ReCode stuff ;0 >
+< bash script to run these c programs >
 
 Into.md
 GCC install.md
