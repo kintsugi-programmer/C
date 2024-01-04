@@ -46,3 +46,6 @@ structs.c
 typedef.c
 array_of_structs.c
 enums.c
+random_numbers.c
+number_guessing_game.c
+quiz_game.c
