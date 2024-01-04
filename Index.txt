@@ -23,3 +23,6 @@ temperature_convert_if.c
 temperature_convert_switch.c
 calculator.c
 and_logical_op.c
+or_logical_op.c
+not_logical_op.c
+
