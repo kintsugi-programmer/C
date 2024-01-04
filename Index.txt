@@ -39,3 +39,5 @@ break_vs_continue.c
 arrays.c
 print_an_array_with_loop.c
 arrays_2D.c
+array_of_strings.c
+swap_values_of_two_variables.c
