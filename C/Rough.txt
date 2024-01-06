@@ -44,7 +44,6 @@ swap_values_of_two_variables.c
 sort_an_array.c
 structs.c
 typedef.c
-
 array_of_structs.c
 enums.c
 random_numbers.c
