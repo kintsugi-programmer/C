@@ -29,6 +29,10 @@ Welcome to the C Programming Examples repository! This collection includes hands
 8. [File I/O](writing_files.c) & [File Reading](reading_files.c)
    - Examples demonstrating writing and reading data to/from files.
 
+8. [Temperature Unit Convertor](temperature_convert_switch.c)
+   - Basic Temperature Units convert program.
+
+
 
 ## Table of Contents
 
