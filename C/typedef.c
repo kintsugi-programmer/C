@@ -2,8 +2,9 @@
 #include <stdio.h> 
 #include <string.h>
 
+//eg1
 typedef char user[25];
-
+//eg2
 typedef struct
 {
    char name[25];
@@ -33,6 +34,9 @@ int main()
    printf("%s\n", user2.name);
    printf("%s\n", user2.password);
    printf("%d\n", user2.id);
+   printf("\n");
+   
+
 
    return 0; 
 }

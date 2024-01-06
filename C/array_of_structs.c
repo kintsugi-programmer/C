@@ -15,7 +15,7 @@ int main()
    struct Student student3 = {"Sandy", 4.0};
    struct Student student4 = {"Squidward", 2.0};
 
-   struct Student students[] = {student1, student2, student3, student4};
+   struct Student students[] = {student1, student2, student3, student4}; // array of structs 
 
    for(int i = 0; i < sizeof(students)/sizeof(students[0]); i++)
    {
