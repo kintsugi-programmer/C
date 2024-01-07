@@ -1,44 +1,4 @@
 
-### 11. Dynamic Memory Allocation:
-
-```cpp
-#include <iostream>
-
-int main() {
-    // Dynamic memory allocation
-    int* numPtr = new int; // Allocate memory for an integer
-    *numPtr = 42;
-
-    std::cout << "Value stored at dynamic memory location: " << *numPtr << std::endl;
-
-    // Don't forget to free the allocated memory
-    delete numPtr;
-
-    return 0;
-}
-```
-
-### 12. Function Overloading:
-
-```cpp
-#include <iostream>
-
-// Function overloading
-int add(int a, int b) {
-    return a + b;
-}
-
-double add(double a, double b) {
-    return a + b;
-}
-
-int main() {
-    std::cout << "Sum of integers: " << add(3, 5) << std::endl;
-    std::cout << "Sum of doubles: " << add(3.5, 2.7) << std::endl;
-
-    return 0;
-}
-```
 
 ### 13. Constructors and Destructors:
 
