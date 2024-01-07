@@ -1,8 +1,23 @@
-same : same as C
+diff : different from C Lang?
+c vs cpp detail ?
 
+cpp_versus_c.md
 helloworld.cpp diff
-Variables.cpp same
+file_naming_conventions.md
+Variables.cpp 
 input.cpp diff
-Conditional_Statements.cpp same
-for_loop.cpp same
-functions.cpp same
+Conditional_Statements.cpp 
+for_loop.cpp 
+functions.cpp 
+arrays.cpp 
+pointers.cpp
+Classes_and_Objects.cpp diff
+access_modifiers.cpp diff
+files_io.cpp diff
+namespaces.cpp diff
+namespa_func_class.md diff
+
+
+
+
+
