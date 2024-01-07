@@ -1,0 +1,8 @@
+same : same as C
+
+helloworld.cpp diff
+Variables.cpp same
+input.cpp diff
+Conditional_Statements.cpp same
+for_loop.cpp same
+functions.cpp same
