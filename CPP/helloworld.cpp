@@ -2,6 +2,9 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+    // cout is close output stream
+    // /n is still faster than endl, but endl is safer
+    // endl is a manipulator, which is a special type of function that manipulates the stream it's used with.
     std::cout << "I am Kintsugi CS Sorceror";
     return 0;
 }

@@ -19,10 +19,11 @@ namespaces.cpp diff
 namespa_func_class.md diff
 dy_mems_allloc.cpp
 func_overloading.cpp
-
 Constructors_destruc.cpp
-
-
+Inheritance.cpp
+Exception.md
+Exception.cpp
+STL.md
 
 
 
