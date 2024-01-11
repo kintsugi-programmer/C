@@ -1,0 +1,18 @@
+[
+	{
+		"test": "1\n"
+	},
+	{
+		"test": "14\n"
+	},
+	{
+		"test": "15\n",
+		"uncorrect_answers":
+		[
+			"Enter a number: The number is positive."
+		]
+	},
+	{
+		"test": "542\n"
+	}
+]

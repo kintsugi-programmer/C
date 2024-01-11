@@ -69,7 +69,6 @@ Feel free to explore and experiment with different STL components to enhance you
 In Progress of learning
 --[Rough.txt](Rough.txt)
 --[tut1.md](tut1.md)
-
 [Intro.md](Intro.md) no use
 
 [tut1.md](vectors.cpp)
@@ -80,6 +79,51 @@ In Progress of learning
 [tut1.md](Sets.cpp)
 [tut1.md](Set_Iterators.cpp)
 [tut1.md](Map.cpp)
+[tut1.md](Iterating_Containers.cpp) WATCH VIDEO FROM HERE
+[tut1.md](Custom_Comparators.cpp)
+
+
+## Try Out These Problems
+
+https://codeforces.com/problemsext/problem/22/A (SET)
+https://codeforces.com/problemset/problem/782/A (SET)
+https://codeforces.com/problemset/problem/4/C (MAP)
+
+
+https://codeforces.com/contest/903/problem/C (MAP - medium level)
+
+
+Do these also without knowing which containers to use:
+https://www.spoj.com/problems/MINSTOCK/
+https://codeforces.com/problemset/problem/799/B
+
+
+Also, keep practicing problems from Codeforces, div2 B and C often require you to use some STL containers and functions.
+
+## References (Can be used like “Glossary”)
+
+Any STL container or function, you want to learn about: Just google search
+“Cplusplus [container name]”
+
+For example: “Cplusplus vector” gives the following result:
+https://www.cplusplus.com/reference/vector/vector/
+
+Similarly:
+https://www.cplusplus.com/reference/set/set/
+https://www.cplusplus.com/reference/map/map/
+
+BEST OF LUCK!
+
+## Further Study (Not Relevant for Beginners)
+Read about these containers on your own, it should be easy because most of the important concepts are already covered. These are less commonly used so you don’t need to worry about these for a long time.
+queue
+stack
+deque
+priority_queue
+multiset / multimap  ->  can store duplicates (too complex for beginners)
+unordered_set / unordered_map (like HashSet or HashMap in Java)
+NOTE: unordered set and map are not-reliable and can perform bad in certain situations, beginners should always avoid them.
+
 
 
 
