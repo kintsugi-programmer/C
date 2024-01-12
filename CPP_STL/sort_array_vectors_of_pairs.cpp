@@ -15,4 +15,20 @@ sort(p,p+5);
 //Given a list of names and scores of students, print the names of students in decreasing order of scores.
 
     return 0;
+
+
 }
+
+/*
+
+ int startTime, duration;
+    cout << "Enter start time on a 24-hour clock: ";
+    cin >> startTime;
+    cout << "Enter duration in minutes: ";
+    cin >> duration;
+
+    int endTime = (startTime + duration) % 2400;  // Handling wrap-around at midnight
+
+    cout << "Start time is " << setw(4) << setfill('0') << startTime << ". Duration is " << duration << ". End time is " << setw(4) << setfill('0') << endTime << "." << endl;
+
+*/
