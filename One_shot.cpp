@@ -79,6 +79,18 @@ cout << (10 == 10 && 10 > 9); // returns 1 (true), because both comparisons are 
 cout << (1010 & 1100); // returns 1000 (a bit-wise AND)
 cout << (1010 | 1100); // returns 1110 (a bit-wise OR)
 cout << (1010 ^ 1100); // returns 110 (a bit-wise XOR)
+
+a^a = 0 //xor of a number with itself is 0
+a^0 = a //xor of a number with 0 is the number itself
+
+a^b^c = a^(b^c) = (a^b)^c
+a^b = b^a
+a^(b^c) = b^(a^c)
+a^b = (a&~b)|(~a&b)
+a^b^c = a^(b^c) = (a^b)^c
+a^b = (a&b)|(~a&~b)
+
+
 cout << (10 << 2); // 10 is "00001010" shifted to the left by 2 positions becomes "00101000" which is 40
 cout << (10 >> 2); // 10 is "00001010" shifted to the right by 2 positions becomes "00000010" which is 2
 cout << sizeof(x); // returns 4 (bytes)
@@ -134,6 +146,7 @@ void Conditional_Statements() {
 	int num3 ;
 	std::cout << "Enter a number :";
 	std::cin >> num3;
+	if (num3>0)std::cout << "\n" << "+ve" << "\n" ; // this is also correct
 	if (num3>0){std::cout << "\n" << "+ve" << "\n" ;}
 	//these will be executed if the above condition is false
 	else if (num3==0){std::cout << "\n" << "0" << "\n" ;}
@@ -148,6 +161,20 @@ void Loops() {
 	char name2 =' ';
 	//for (initialization; condition; update) { // body of loop }
 	for (int i = 1 ; i <=10 ; i++){std::cout << i << name2;}
+	std::vector<int> numbers = {1, 2, 3, 4, 5};
+
+	// auto keyword automatically know the data type of the variable from its initializer
+    // Using auto in a for loop to iterate over the elements of a vector
+    for (auto it = numbers.begin(); it != numbers.end(); ++it) {
+        std::cout << *it << " ";
+    }
+
+    std::cout << std::endl;
+
+    // Using auto in a range-based for loop for simpler syntax
+    for (auto& num : numbers) {
+        std::cout << num << " ";
+    }
 		
 	//do while
 	int i=5; //initialization
@@ -159,7 +186,13 @@ void Loops() {
 }
 
 void arrays() {
+	// Data Structures defination : A data structure is a collection of data elements (such as numbers or characters) that is structured in some way, for example, by numbering the elements.
+	// Data Structures are used to store data in a computer in an organized form.
+	// we have to optimize the data structures for the best performance ,based on time and space complexity
+
+
 	// Arrays
+	// contiguous memory allocation , all the elements are stored in a continuous memory location
 	// Array declaration and initialization
 	// in arrays we can store multiple values of same data type
 	// in arrays we dont have positions BUT we have indexes
@@ -167,6 +200,14 @@ void arrays() {
 	// data_type array_name [ array_size ];
 	int numbers[5] = {1, 2, 3, 4, 5};
 	// Size of array = 5*4 = 20 bytes
+	int arr_[10] = {1, 2, 3, 4, 5}; // Partial initialization, rest will be initialized to 0,garbage value.
+	int arr[10] = {0}; // All elements initialized to 0
+	int arr1[10] = {}; // All elements initialized to 0
+	int arr[10] = {1}; // {1,REST ALL ARE 0}First element initialized to 1, rest will be initialized to 0
+
+
+
+	
 
 	// Array declaration and initialization
 
@@ -178,6 +219,70 @@ void arrays() {
 	std::cout << "Fifth element: " << numbers[4] << std::endl;
 	std::cout << "Array :" << numbers << std::endl;
 	std::cout << "Array Size :" << sizeof(numbers) << std::endl;
+
+	// Quick question : 
+	int arr[] = {1,3,4,2,2};
+	// find frequent element in the array
+	
+	//correct way
+	n=sizeof(arr)/sizeof(arr[0]);
+	int freq[100005]={0};//this is the frequency array,
+	for (auto x:arr){freq[x]++;}
+	int max_freq=0;
+	for (int i=1;i<n;i++){if(freq[i]>=2)max_freq=i;}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	// way 1 : brute force
+	// Time Complexity : O(n^2)
+	int size = sizeof(arr) / sizeof(arr[0]); // wow approach 
+	int maxCount = 0, mostFrequent = -1;
+
+    for (int i = 0; i < size; i++) {
+        int count = 1;
+        for (int j = i + 1; j < size; j++) {
+            if (arr[i] == arr[j]) // instead of checking this we can use this below
+			//a^a = 0 //xor of a number with itself is 0
+//a^0 = a //xor of a number with 0 is the number itself
+// but when :::
+
+                count++;
+        }
+
+        if (count > maxCount) {
+            maxCount = count;
+            mostFrequent = arr[i];
+        }
+    }
+	std::cout << "Most frequent number is : " << mostFrequent << std::endl;
+	//but this is not the best approach
+	
+	// way 2 : sorting and then finding the frequent element
+	
+	
+	
+	// way 3 : using hashmaps (DIctionary with counter approach) 
+	// way 4 : using sets
+	// way 5 : using binary search trees
+	// way 6 : using heaps
+	// way 7 : using tries
+	// way 8 : using stacks
+	// way 9 : using queues
+	// way 10 : using linked lists
+	// way 11 : using graphs
+	// way 12 : using matrices
+	// way 13 : using strings
+	// way 14 : using vectors
+	// way 15 : using maps
+	// way 16 : using sets
+
+
 }
 
 void pointers() {
@@ -268,3 +373,5 @@ int main()
 	return 0;
 }
 
+// To be continued
+// https://www.youtube.com/live/VH8NUYDWKC0?feature=shared&t=3126
