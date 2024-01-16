@@ -1,6 +1,9 @@
 # Data Structures
 
 [YouTube Link](https://youtu.be/MdG0Vw9f1A4?feature=shared)
+[Notes Link](https://knowledgegatecoding.github.io/SingleShot_UniversityExamSeries_Notes/DS%20in%207%20hours.pdf)
+Codes are in DSA KG folder
+
 # Chapter 1: Introduction
 
 ## Basic Terminology, Elementary Data Organization, Built-in Data Types in C
