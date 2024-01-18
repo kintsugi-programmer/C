@@ -43,6 +43,7 @@ int main()
 
 }
 
+// Some important functions:
 // m.clear() - Clears a map
 // m[key] - value of element with key. O(logN)
 // m.count(key), m.find(key), m.erase(key),
